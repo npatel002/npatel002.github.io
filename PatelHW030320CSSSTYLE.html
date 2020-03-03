@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>friendship Survey</title>
+    <link rel="stylesheet" href="PATELHWCSSSTYLE030320.css" type="text/css" />
+    <style>
+        body {
+            background-color: lightgray;         
+        }
+    </style>
+
+</head>
+<body>
+    <h1>FRIENDSHIP SURVEY</h1>
+
+    <h2>Let's start with something sweet.</h2>
+
+    <p> This form will help determine the chances of our friendship based on your favorite candy.</p>
+
+    <form action='https://moodle.converse.edu/CSC235/formecho.php' method='get' name="getform">
+        <input type="hidden" name="hidden" value="This is about whether we can be friends or not based on candy choices." />
+        <label for="name">What is your name?</label> <input type="text" name='name'/><br/>
+        <label for="candy">What is your favorite candy?</label> <input type="text" name='candy'/><br/>
+        <label for="favorite">How many of your favorite candy can you eat in 60 seconds?</label> 
+        <input type="number" min="0" max='100' name='favorite'/><br/>
+        <label for="life">Which candy could you give up for life?</label> 
+        <input type="radio" name='life' value="we can't be friends"             class="snickers" /><label>Snickers</label>
+        <input type="radio" name='life' value="we could be friends"             class="reeses" /><label>Reese's</label>
+        <input type="radio" name='life' value="may be"                          class="kitkat" /><label>Kit Kat</label>
+        <input type="radio" name='life' value="We definitely cannot be friends" class="almondjoy" /><label>Almond Joy</label><br />
+        <label for="phone">Best phone number to contact you?</label>
+        <input type="tel" value="000-0000" name="phone" pattern="[0-9]{3}-[0-9]{4}" required /><br />
+        <label for="chocolate">What is your favorite type of chocolate?</label> <select name="chocolate">
+            <option class="milk">Milk</option>
+            <option value="I love you already" class="dark">Dark</option>
+            <option>White</option>
+            <option value="I hate you for asking this question">I don't know</option>
+        </select><br />
+        <input type="checkbox" name="legal" class="llegal" required />
+        <label for="legal">I have 'read' and agreed to the terms of the friendship survey.</label><br />
+        <input type="reset" />
+        <input type="submit" value='Submit' class='makeitstandout' />
+    </form>
+
+</body>
+</html>

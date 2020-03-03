@@ -1,0 +1,38 @@
+h1 { font-style: italic; 
+    text-align: center; 
+}
+
+.snickers + label {
+    font-weight: bold;
+    color: brown;
+}
+
+.reeses + label { 
+    font-weight: bold;
+    color: darkorange ;
+}
+
+.kitkat + label {
+    font-weight: bold;
+    color: red ;
+}
+
+.almondjoy + label {
+    font-weight: bold;
+    color: blue ;
+}
+
+.llegal + label {
+    font-weight: bold;
+    font-family: "Georgia", 'New Century Schoolbook', serif;
+    color: rgb(138, 8, 8) ;
+}
+
+.milk {
+    font-weight: bold;
+    color: sienna;
+}
+.dark {
+    font-weight: bold;
+    color: rgb(100, 12, 12);
+}
