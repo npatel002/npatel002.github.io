@@ -1,0 +1,46 @@
+h1 { font-style: italic; 
+    text-align: left; 
+}
+
+body { 
+    background-color: lightsteelblue;
+} 
+
+.one { 
+    font-weight: bold;
+    color: brown ;
+}
+
+
+.two {
+    font-weight: bold;
+    color: blue ;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    border-bottom-style: double;
+}
+
+td {
+    border-left: thin solid;
+}
+
+.line {
+    border-top: thin dotted;
+}
+
+.table {
+    border: thin solid;
+    background-color: lemonchiffon;
+}
+
+.bord { 
+    border: thin solid;
+    padding: .5em;
+    background-color: lightsalmon;
+}
