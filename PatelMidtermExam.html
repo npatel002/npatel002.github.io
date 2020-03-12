@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+	<title>Midterm Exam, CSC 235 Web Programming I, Spring 2020</title>
+	<style>
+		.radio {
+			background-color: rgb(255, 20, 147);
+		}
+
+		.radio1 {
+			background-color:red;
+		}
+
+		.VG {
+			margin-bottom: 2cm;
+		}
+	</style>
+  </head>
+  <body>
+    <h1>Midterm Exam</h1>
+
+    <form action="https://moodle.converse.edu/CSC235/formecho.php" 
+	  method="post" id="postform">
+      <fieldset>
+	<div class="VG"><label for="name">Please enter your name: </label>
+	  <input type="text" name="name" value="" id="name" /></div>
+	<div class="VG"><label for="grad-2017">I expect to graduate in:</label>
+	  <span class="radio">
+	    <input type="radio" name="grad-year" value="2018" id="grad-2018" />
+	    <label for="grad-2018">2018</label></span>
+	  <span class="radio1">
+	    <input type="radio" name="grad-year" value="2019" id="grad-2019"/>
+	    <label for="grad-2019">2019</label></span>
+	  <span class="radio">
+	    <input type="radio" name="grad-year" value="2020" id="grad-2020" />
+	    <label for="grad-2020">2020</label></span>
+	  <span class="radio1"> 
+	    <input type="radio" name="grad-year" value="2021" id="grad-2021"/>
+	    <label for="grad-2017">2021</label></span>
+	</div>
+	<div><label>I am wearing clothes of the following colors (check all
+		that apply):</label><br />
+
+		<input type="checkbox" name='color1' value="Grey"/><label>Grey</label><br />
+        <input type="checkbox" name='color2' value="Lavender"/><label>Lavender</label><br />
+        <input type="checkbox" name='color3' value="Red"/><label>Red</label><br />
+        <input type="checkbox" name='color4' value="Blue"/><label>Blue</label><br/>
+	</div>
+	<input type="reset" value="Reset" /><input type="submit" value="Submit"/>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
