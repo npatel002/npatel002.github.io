@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(161, 202, 216);
+}
+
+.column {
+    vertical-align: bottom;
+    text-indent: 50px;
+}
+
+.popup {
+    column-width: 25em;
+    column-rule-width: thin;
+    column-rule-style: solid;
+    column-rule-color: darkblue;
+}
+
+.popup li {
+    display: none;
+}
+
+.popup:hover li { 
+    display: list-item;
+}
+
+.float {
+    float: right;
+}
