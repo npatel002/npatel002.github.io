@@ -43,7 +43,8 @@
 <body>
 	<h1>Homework 8</h1>
 
-	<form action="https://moodle.converse.edu/CSC235/formecho.php" method="post" id="postform">
+	<form action="https://moodle.converse.edu/CSC235/formecho.php" method="post" id="postform"
+	      onsubmit="return validInput(this);">
 		<fieldset>
 			<div class="inigo">&ldquo;Hello! My name is
 				<input name="nameblank" id="nameblank" required="required" />.<span class="flag"></span> You killed my
